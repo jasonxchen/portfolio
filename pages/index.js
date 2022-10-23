@@ -19,7 +19,7 @@ export default function Home() {
 
 			<ProjectList />
 
-			<h2>Contact Info</h2>
+			<h2 className="text-center">Footer with contact info</h2>
 		</div>
 	);
 }
