@@ -18,7 +18,7 @@ export default function Home() {
 
 			<ProjectList />
 
-			<h2 className="text-center">Footer with contact info</h2>
+			<h2 id="contact" className="text-center">Footer with contact info</h2>
 		</div>
 	);
 }

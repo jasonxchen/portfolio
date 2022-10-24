@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
     return (
-        <div className="mx-auto flex w-8/12">
+        <div id="about" className="mx-auto flex w-8/12">
             <Image 
                 src=""
                 alt="Jason Chen"

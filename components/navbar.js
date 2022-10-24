@@ -15,13 +15,13 @@ export default function Navbar({}) {
                             <span className="sr-only">Open main menu</span>
                             {showMobileMenu ? 
                                 // Icon when menu is open: outline/x-mark (Heroicon)
-                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                                 </svg>
                                 :
                                 // Icon when menu is closed: outline/bars-3 (Heroicon)
-                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                                 </svg>
                             }
                         </button>
@@ -46,8 +46,14 @@ export default function Navbar({}) {
                                 <Link href="/">
                                     <button className="hover:underline px-3 py-2 rounded-md">Home</button>
                                 </Link>
-                                <Link href="/about">
+                                <Link href="#about" scroll={false}>
                                     <button className="hover:underline px-3 py-2 rounded-md">About</button>
+                                </Link>
+                                <Link href="#projects" scroll={false}>
+                                    <button className="hover:underline px-3 py-2 rounded-md">Projects</button>
+                                </Link>
+                                <Link href="#contact" scroll={false}>
+                                    <button className="hover:underline px-3 py-2 rounded-md">Contact</button>
                                 </Link>
                             </div>
                         </div>
@@ -63,8 +69,14 @@ export default function Navbar({}) {
                         <Link href="/">
                             <button className="hover:underline px-3 py-2 rounded-md w-fit self-end mr-8">Home</button>
                         </Link>
-                        <Link href="/about">
+                        <Link href="#about" scroll={false}>
                             <button className="hover:underline px-3 py-2 rounded-md w-fit self-end mr-8">About</button>
+                        </Link>
+                        <Link href="#projects" scroll={false}>
+                            <button className="hover:underline px-3 py-2 rounded-md w-fit self-end mr-8">Projects</button>
+                        </Link>
+                        <Link href="#contact" scroll={false}>
+                            <button className="hover:underline px-3 py-2 rounded-md w-fit self-end mr-8">Contact</button>
                         </Link>
                     </div>
                 </div>
