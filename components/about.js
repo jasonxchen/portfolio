@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
     return (
-        <div id="about" className="flex flex-col items-center gap-8">
+        <div id="about" className="pt-20 flex flex-col items-center gap-8">
             <div className="mx-auto flex justify-center gap-8 flex-wrap w-11/12 md:w-8/12">
                 <Image 
                     src="/img/jason_chen.png"

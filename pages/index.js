@@ -2,6 +2,7 @@ import Head from "next/head";
 import Landing from "../components/landing";
 import About from "../components/about";
 import ProjectList from "../components/projectList";
+import Footer from "../components/footer";
 
 export default function Home() {
 	return (
@@ -18,7 +19,7 @@ export default function Home() {
 
 			<ProjectList />
 
-			<h2 id="contact" className="text-center">Footer with contact info</h2>
+			<Footer />
 		</div>
 	);
 }
