@@ -14,12 +14,12 @@ export default function About() {
                 <div className="flex flex-col gap-4 w-full lg:w-9/12 xl:w-7/12">
                     <h2 className="text-4xl">About</h2>
                     <p>
-                        Hi there! I love solving problems and strive to make an impact wherever I go. I'm very meticulous in my work and I always try to serve the best products possible as I've always been my biggest critic. For this reason, I value security and being able to identify and fix possible vulnerabilities. I would describe myself as a fast learner and curious tinkerer. I also have a keen eye for debugging so allow me to take on your challenges.
+                        {`Hi there! I love solving problems and strive to make an impact wherever I go. I'm very meticulous in my work and I always try to serve the best products possible as I've always been my biggest critic. For this reason, I value security and being able to identify and fix possible vulnerabilities. I would describe myself as a fast learner and curious tinkerer. I also have a keen eye for debugging so allow me to take on your challenges.`}
                     </p>
                     <div className="self-center flex gap-4">
-                        <a href="https://github.com/jasonxchen" target="_blank">GitHub</a>
-                        <a href="https://www.linkedin.com/in/jasonxchen" target="_blank">LinkedIn</a>
-                        <a href="https://docs.google.com/document/d/e/2PACX-1vQx5oaUfUXGcJdrfBNIqwW63VDBrBYY6m-be57P4Vj1VA2uTxWrwJQdvUf9SU7j1Q/pub" target="_blank">Resume</a>
+                        <a href="https://github.com/jasonxchen" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/jasonxchen" target="_blank" rel="noreferrer">LinkedIn</a>
+                        <a href="https://docs.google.com/document/d/e/2PACX-1vQx5oaUfUXGcJdrfBNIqwW63VDBrBYY6m-be57P4Vj1VA2uTxWrwJQdvUf9SU7j1Q/pub" target="_blank" rel="noreferrer">Resume</a>
                     </div>
                 </div>
             </div>

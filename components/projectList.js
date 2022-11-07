@@ -6,7 +6,7 @@ export default function ProjectList() {
             <h2 className="text-4xl mx-auto w-11/12 md:w-10/12">Projects</h2>
 
 			<div className="mt-8 flex flex-wrap justify-center">
-				<a href="https://github.com/jasonxchen/tensorflow-recycling" target="_blank">
+				<a href="https://github.com/jasonxchen/tensorflow-recycling" target="_blank" rel="noreferrer">
 					<Image 
 						src="/img/prediction-example.png"
 						alt="TensorFlow Recycling Example"
@@ -24,7 +24,7 @@ export default function ProjectList() {
 			</div>
 
 			<div className="mt-8 flex flex-wrap justify-center">
-				<a href="https://bloom-jc.netlify.app" target="_blank">
+				<a href="https://bloom-jc.netlify.app" target="_blank" rel="noreferrer">
 					<Image 
 						src="/img/bloom-home-page.png"
 						alt="Bloom Home Page"
@@ -43,7 +43,7 @@ export default function ProjectList() {
 			</div>
 
 			<div className="mt-8 flex flex-wrap justify-center">
-				<a href="https://spotifly.fly.dev" target="_blank">
+				<a href="https://spotifly.fly.dev" target="_blank" rel="noreferrer">
 					<Image 
 						src="/img/spotifly-home-page.png"
 						alt="Spotifly Home Page"
@@ -62,7 +62,7 @@ export default function ProjectList() {
 			</div>
 
 			<div className="mt-8 flex flex-wrap justify-center">
-				<a href="https://jasonxchen.github.io/why-so-sus" target="_blank">
+				<a href="https://jasonxchen.github.io/why-so-sus" target="_blank" rel="noreferrer">
 					<Image 
 						src="/img/why-so-sus-demo.png"
 						alt="Why So Sus Demo"
