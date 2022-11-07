@@ -23,10 +23,10 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="w-11/12 md:w-8/12">
                 <h3 className="text-3xl text-center">Skills</h3>
                 <p className="mt-2">
-                    Python | C++ | Java | React | Node | JavaScript | HTML | CSS | Tailwind CSS | Express | MongoDB | SQL | Postgres | Sequelize | Git | Github
+                    Python, C++, Java, React, Node, JavaScript, HTML, CSS, Tailwind CSS, Express, MongoDB, SQL, Postgres, Sequelize, Git, Github
                 </p>
             </div>
         </div>
